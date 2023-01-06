@@ -1,0 +1,83 @@
+@font-face {
+	font-family: OrangeKid;
+	src: url("../font/orangekid.ttf");
+}
+@font-face{
+	font-family: VCR;
+	src: url("../font/vcrosd.ttf");
+}
+.coolbody{
+	background-color:#237059;
+}
+.coolbody embed{
+	width:0px;
+	height:0px;
+	text-align:center;
+}
+.coolheader{
+	background-image: url("https://magazineclonerepub.azureedge.net/mcepub/3165/216037/image/b6ea76d5-62cf-43f4-9c0f-e77a4a82a8c2.jpg");
+	background-position:center;
+	border: 10px ridge #34a886;
+	text-align:center;
+}
+.coolheader h1{
+	font-family:OrangeKid;
+	font-size:40px;
+	display:inline-block;
+	color:#000000;
+}
+.coolheader img{
+	vertical-align:middle;
+	content:url("../img/starman.png");
+	height:150px;
+}
+.welcome img{
+	content:url("../img/dothefreeman.gif");
+	height:100px;
+	vertical-align:middle;
+}
+.welcome h2{
+	font-family:VCR;
+	color:#ffffff;
+	display:inline-block;
+}
+.coolmain{
+	background-image:url("https://magazineclonerepub.azureedge.net/mcepub/3165/216037/image/b6ea76d5-62cf-43f4-9c0f-e77a4a82a8c2.jpg");
+	background-position:center;
+	border: 10px ridge #34a886;
+	height:1000px;
+}
+
+.flexcontainer{
+    display: flex;
+	height:700px;
+}
+
+.leftblock{
+	width:50%;
+	background-image: url("https://magazineclonerepub.azureedge.net/mcepub/3165/216037/image/b6ea76d5-62cf-43f4-9c0f-e77a4a82a8c2.jpg");
+	background-position:center;
+	border: 10px ridge #34a886;
+	height:100%;
+}
+.container{
+	height:100%;
+	width:50%;
+}
+.container > div{
+	height:220px;
+	background-image: url("https://magazineclonerepub.azureedge.net/mcepub/3165/216037/image/b6ea76d5-62cf-43f4-9c0f-e77a4a82a8c2.jpg");
+	background-position:center;
+	border: 10px ridge #34a886;	
+}
+.coolfooter{
+	background-image: url("https://magazineclonerepub.azureedge.net/mcepub/3165/216037/image/b6ea76d5-62cf-43f4-9c0f-e77a4a82a8c2.jpg");
+	background-position:center;
+	border: 10px ridge #34a886;
+}
+.coolfooter div{
+	text-align:center;
+}
+.coolfooter img{
+	height:64px;
+}
